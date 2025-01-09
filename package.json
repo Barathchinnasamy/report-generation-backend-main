@@ -1,0 +1,41 @@
+{
+  "name": "pdfkit-sample-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "prod": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "@types/html-pdf-node": "^1.0.2",
+    "@types/node": "^22.5.5",
+    "@types/node-fetch": "^2.6.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1691.0",
+    "cls": "^0.1.5",
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "docxtemplater": "^3.50.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "fs-extra": "^11.2.0",
+    "html-pdf-node": "^1.0.8",
+    "mammoth": "^1.8.0",
+    "node-fetch": "^2.7.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-lib-draw-table-beta": "^0.1.22",
+    "pdf-lib-table": "^1.1.7",
+    "pizzip": "^3.1.7"
+  }
+}
