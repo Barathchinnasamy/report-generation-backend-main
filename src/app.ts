@@ -14880,7 +14880,8 @@ app.get("/usecase-prioritization-updated-report-tenantretentionAI", async (_req:
   pdfService.drawHeading("7. System architecture",'left');
   pdfService.setCurrentY(3);
 
-  await pdfService.addLocalImage('./assets/market-segmenter.png',250,0.6);
+  await pdfService.addLocalImage('./assets/TenantRetention-AI.png',250,0.6);
+  // await pdfService.addURLImage('https://fusefy-staging.s3.amazonaws.com/low-level-architecture-diagrams/74caf3fc-7bf9-4fae-a382-e11011b5c44b.png')
   pdfService.setCurrentY(10);
   
   // pdfService.drawSubHeader("1. Maturity Level 0",'left',15);
@@ -15483,7 +15484,7 @@ app.get("/usecase-prioritization-updated-report-rentalpricingpredictionAI", asyn
   pdfService.drawHeading("7. System architecture",'left');
   pdfService.setCurrentY(3);
 
-  await pdfService.addLocalImage('./assets/market-segmenter.png',250,0.6);
+  await pdfService.addLocalImage('./assets/RentalPricing-Prediction_AI.png',250,0.6);
   pdfService.setCurrentY(10);
   
   // pdfService.drawSubHeader("1. Maturity Level 0",'left',15);
